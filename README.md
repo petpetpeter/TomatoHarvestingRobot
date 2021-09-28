@@ -21,7 +21,7 @@ rosrun tomato_detection tomatoPlanner.py
 
 ## Xarm
 ```
-roslaunch realsense2_camera rs_rgbd.launch
+roslaunch xarm7_moveit_config realMove_exec.launch
 ```
 ```
 rosrun real_xarm xarm7_commander.py
