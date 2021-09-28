@@ -6,7 +6,6 @@ A description for launching tomato robot in Hayashi's Lab
 
 ## Tomato Detection
 
-
 1. Launch RGB-D camera 
 ```
 roslaunch realsense2_camera rs_rgbd.launch
@@ -16,3 +15,14 @@ roslaunch realsense2_camera rs_rgbd.launch
 rosrun tomato_detection handCameraYolor.py
 ```
 3. Launch PLanner (MarkerArray in -> ClosetTomamto srv)
+```
+rosrun tomato_detection tomatoPlanner.py
+```
+
+## Xarm
+```
+roslaunch realsense2_camera rs_rgbd.launch
+```
+```
+rosrun real_xarm xarm7_commander.py
+```
