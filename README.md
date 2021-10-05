@@ -10,13 +10,17 @@ A description for launching tomato robot in Hayashi's Lab
 ```
 roslaunch realsense2_camera rs_rgbd.launch
 ```
+or
+```
+roslaunch azure_kinect_ros_driver driver.launch
+```
 2. Launch Tomato Detection (RGB-D in -> MarkerArray out)
 ```
 rosrun tomato_detection handCameraYolor.py
 ```
 3. Launch PLanner (MarkerArray in -> ClosetTomamto srv)
 ```
-rosrun tomato_detection tomatoPlanner.py
+rosrun tomato_detection poseTomatoPlanner.py
 ```
 
 ## Xarm
