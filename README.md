@@ -16,7 +16,7 @@ roslaunch azure_kinect_ros_driver driver.launch
 ```
 2. Launch Tomato Detection (RGB-D in -> MarkerArray out)
 ```
-rosrun tomato_detection handCameraYolor.py
+rosrun tomato_detection baseCameraYolor.py
 ```
 3. Launch PLanner (MarkerArray in -> ClosetTomamto srv)
 ```
