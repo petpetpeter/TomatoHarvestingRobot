@@ -28,5 +28,5 @@ rosrun tomato_detection poseTomatoPlanner.py
 roslaunch xarm7_moveit_config realMove_exec.launch
 ```
 ```
-rosrun real_xarm xarm7_commander.py
+rosrun real_xarm xarm7_tracIK.py
 ```
