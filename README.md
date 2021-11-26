@@ -20,11 +20,7 @@ rosrun tomato_detection handCameraYolor.py
 ```
 or
 ```
-rosrun tomato_detection baseCameraYolor.py
-```
-3. Launch PLanner (MarkerArray in -> ClosetTomamto srv)
-```
-rosrun tomato_detection poseTomatoPlanner.py
+rosrun tomato_detection advanceBaseCameraYolor.py
 ```
 
 ## Xarm
@@ -32,5 +28,5 @@ rosrun tomato_detection poseTomatoPlanner.py
 roslaunch xarm7_moveit_config realMove_exec.launch
 ```
 ```
-rosrun real_xarm xarm7_tracIK.py
+rosrun real_xarm advanceXarm.py
 ```
